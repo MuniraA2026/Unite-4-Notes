@@ -33,5 +33,18 @@ console.log(raining);
 let breakfast = "water"
 let lunch;
 lunch = breakfast;
-concole.log (breakfast);
-concole.log (lunch);
+console.log (breakfast);
+console.log (lunch);
+// Above statements log the VALUE stored in VARIABLES named breakfast and lunch
+// Below statement log the literal string "lunch"
+console.log("lunch");
+
+// MATH OPERATORS 
+let score = 0;
+score = score + 5;console.log(score)
+score = score - 10;
+console.log(score)
+score = score * (-3);
+console.log(score)
+score = score / 5;
+console.log(ScreenOrientation)
