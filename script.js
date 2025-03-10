@@ -47,4 +47,30 @@ console.log(score)
 score = score * (-3);
 console.log(score)
 score = score / 5;
-console.log(ScreenOrientation)
+console.log(score);
+
+// Can bombine operators, evaluation follows PEMDAS
+score = (score * 3 / 7 - 4 + (-6)) ** 2 ;
+console.log(score);
+
+//STRING CONCATENATION  (merging with the PLUS SIGN)
+// String LITERALs are indicated with "QUOTES"
+let greeting = "Hello" + "Friend";
+console.log(greeting);
+
+// Can combine String Literals with VARIABLES
+let username = "Stitch_evol24" ;
+console.log("welcome, \n" + username + "! ");
+
+// Numbers get converted to String if combined
+console.log(4 + 5); // 9 (did addition)
+console.log("4" + 5 ); // 45 (concate, not math)
+console.log( 4 + '5'); // same as above
+
+// SHORTCUT OPERATORS (Increment/Decrement)
+let counter = 0;
+counter = counter + 1; // LONG WAY
+counter++; // SHORTCUT
+console.log("Count is" + counter);
+counter--;
+console.log("Count is " + counter);
