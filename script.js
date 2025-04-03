@@ -93,3 +93,25 @@ function skincare() {
 // CALL the function to use it!
 skincare();
 skincare(); // can run the function again
+
+
+// *** Selection (CONDITIONALS) *** 
+// A conditional expression is like a QUESTION
+// that has a boolean (true/false) ANSWER
+
+console.log( "Conditionals:");
+console.log( 4 > 5 ); // 4 > 5 evaluates to false
+console.log("Is 10 less than 2?");
+console.log( 10< 2 );
+console.log( 2== 2 );console.log( 4 != 2 );
+console.log( 4 != 4 );
+
+// Strings can also be compared by dictionary order
+//Each letter/character has a numerical value (A is 1, B is 2...)
+console.log( "Kyanni" >= "Ayesha"); // true 
+console.log( "z" < "A" ); // false
+console.log( "Katerina" == "Katherine" );
+
+// Can use comparison operators btwn VARIABLES and VALUES
+let myNickname = "Katie";
+console.log( myNickname == "Kat" );
